@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.14 on win32)" generated="20241101 00:33:48.617" rpa="true" schemaversion="4">
+<suite id="s1" name="Tasks" source="c:\Users\vvp\VSCode\test-robot\tasks.robot">
+<test id="s1-t1" name="Main" line="21">
+<kw name="Read Excel">
+<kw name="Open Workbook C:\\Users\\vvp\\VSCode\\test-robot\\robot_scrape_list.xlsx">
+<msg timestamp="20241101 00:33:55.991" level="FAIL">No keyword with name 'Open Workbook C:\\Users\\vvp\\VSCode\\test-robot\\robot_scrape_list.xlsx' found.</msg>
+<status status="FAIL" starttime="20241101 00:33:55.991" endtime="20241101 00:33:55.993"/>
+</kw>
+<kw name="${List} Read Worksheet header=True">
+<status status="NOT RUN" starttime="20241101 00:33:56.002" endtime="20241101 00:33:56.002"/>
+</kw>
+<kw name="Log To Console ${List}">
+<status status="NOT RUN" starttime="20241101 00:33:56.010" endtime="20241101 00:33:56.010"/>
+</kw>
+<status status="FAIL" starttime="20241101 00:33:55.986" endtime="20241101 00:33:56.011"/>
+</kw>
+<status status="FAIL" starttime="20241101 00:33:55.985" endtime="20241101 00:33:56.013">No keyword with name 'Open Workbook C:\\Users\\vvp\\VSCode\\test-robot\\robot_scrape_list.xlsx' found.</status>
+</test>
+<doc>Template robot main suite.</doc>
+<status status="FAIL" starttime="20241101 00:33:48.640" endtime="20241101 00:33:56.016"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20241101 00:33:48.689" level="ERROR">Error in file 'c:\Users\vvp\VSCode\test-robot\tasks.robot' on line 4: Importing library 'MyLibrary' failed: ModuleNotFoundError: No module named 'MyLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  c:\Users\vvp\VSCode\test-robot
+  c:\Users\vvp\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_debug_adapter
+  c:\Users\vvp\VSCode\test-robot
+  c:\Users\vvp\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src
+  c:\Users\vvp\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_ls\vendored
+  c:\ProgramData\robocorp\ht\ebd9c04_b1f3c24_1c0bc041\python310.zip
+  c:\ProgramData\robocorp\ht\ebd9c04_b1f3c24_1c0bc041\DLLs
+  c:\ProgramData\robocorp\ht\ebd9c04_b1f3c24_1c0bc041\lib
+  c:\ProgramData\robocorp\ht\ebd9c04_b1f3c24_1c0bc041
+  c:\ProgramData\robocorp\ht\ebd9c04_b1f3c24_1c0bc041\lib\site-packages
+  c:\ProgramData\robocorp\ht\ebd9c04_b1f3c24_1c0bc041\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\ebd9c04_b1f3c24_1c0bc041\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\ebd9c04_b1f3c24_1c0bc041\lib\site-packages\Pythonwin</msg>
+<msg timestamp="20241101 00:33:53.196" level="WARN">This is a deprecated import that will be removed in favor of RPA.Browser.Selenium</msg>
+<msg timestamp="20241101 00:33:55.977" level="ERROR">Error in file 'c:\Users\vvp\VSCode\test-robot\tasks.robot' on line 7: Resource file 'keywords.robot' does not exist.</msg>
+<msg timestamp="20241101 00:33:55.980" level="ERROR">Error in file 'c:\Users\vvp\VSCode\test-robot\tasks.robot' on line 8: Variable file 'MyVariables.py' does not exist.</msg>
+</errors>
+</robot>
