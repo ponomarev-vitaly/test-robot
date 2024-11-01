@@ -11,7 +11,7 @@ Variables           MyVariables.py
 
 Read Excel
     Open Workbook C:\\Users\\vvp\\VSCode\\test-robot\\robot_scrape_list.xlsx
-
+    
 
 
 
